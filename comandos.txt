@@ -1,0 +1,14 @@
+cd {RUTA}
+
+conda create -n practica2.2 python=3.9
+conda activate practica2.2
+conda update -n base -c defaults conda
+conda install numpy==1.21.5
+conda install pandas=1.4.1
+conda install matplotlib=3.5.1
+conda install jupyter
+conda install -c conda-forge tensorflow==2.6.0
+conda install scikit-learn 
+conda install keras
+
+jupyter notebook 
